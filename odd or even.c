@@ -2,17 +2,16 @@
 
 int main() {
 	int i;
-	printf("enter the val\n");
 	scanf("%d",&i);
 	if(i<=0)
 	{
 		printf("invalid");
 	}
 	else if(i%2==0)
-	{		printf("even");
+	{		printf("Even");
 		}else
 		{
-		printf("odd");
+		printf("Odd");
 		
 		}
 	return 0;
